@@ -21,10 +21,20 @@ footer p {
     text-align: center;
 }
 
-p{
+body{
     text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
 }
-#bannier{
+ul {
+    list-style-position: inside;
+}
+img.displayed {
+    display: block;
     margin-left: auto;
-    margin-right: auto;
-}
+    margin-right: auto }
+
+
+    table, th, td {
+        border: 1px solid black;
+      }

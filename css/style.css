@@ -1,0 +1,26 @@
+#centerGreyBox{
+    text-align: center;
+    color: red;
+    background: grey;
+    padding: 2em 1em;
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+    border-radius: .3em;
+    min-height: 500px;
+    margin-bottom: 2em;
+}
+
+.footer_black {
+    color: #8F8F8F;
+    background-color: #252525;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}

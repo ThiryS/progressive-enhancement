@@ -1,14 +1,3 @@
-#centerGreyBox{
-    text-align: center;
-    color: red;
-    background: grey;
-    padding: 2em 1em;
-    -webkit-border-radius: .3em;
-    -moz-border-radius: .3em;
-    border-radius: .3em;
-    min-height: 500px;
-    margin-bottom: 2em;
-}
 
 .footer_black {
     color: #8F8F8F;
@@ -20,11 +9,18 @@ footer p {
     padding-bottom: .5em;
     text-align: center;
 }
-
-body{
+header{
     text-align: center;
-    margin-right: 400px;
-    margin-left: 400px;
+}
+body{
+    width: 1000px;
+    margin: 0 auto; 
+    
+    background: -webkit-linear-gradient(-2deg, rgb(125, 200, 246), rgb(235, 184, 184));
+    background: linear-gradient(-2deg, rgb(125, 200, 246), rgb(235, 184, 184));
+
+
+
 }
 ul {
     list-style-position: inside;
@@ -38,3 +34,39 @@ img.displayed {
     table, th, td {
         border: 1px solid black;
       }
+
+.bien{
+    color : green;
+}
+
+.mal{
+    color : red;
+}
+
+.link
+{
+color: #8F8F8F;
+   text-decoration: none; 
+   background-color: none;
+}
+
+.citations{
+    font-size: 150%;
+
+}
+
+.li_bien{
+    background-image: url("../images/bien.png");
+}   
+.li_mal{
+    background-image: url("images/mal.png");
+}
+.li_chat{
+    background-image: url("images/chat.png");
+}
+.li_pos{
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+}
